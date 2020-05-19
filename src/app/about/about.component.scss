@@ -1,0 +1,230 @@
+.aboutPicDivRight {
+  width: 30%;
+}
+
+.aboutPicDivRightBottom {
+  height: 40%;
+  width: 100%;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.fakeScreen {
+  background-color: #151515;
+  margin: 0 auto;
+  height: 45%;
+  padding: 20px;
+  background-image: linear-gradient(to bottom right, #151515, #22313f)
+}
+
+.jellyPicDiv {
+  background-image: url('../../assets/images/jelly.jpg');
+  height: 60%;
+}
+
+.line1 {
+  color: #00FF41;
+}
+
+.line2 {
+  color: #CDEE69;
+}
+
+.line3 {
+  color: #E09690;
+  text-decoration: none;
+}
+
+.line4 {
+  color: #9CD9F0;
+  text-decoration: none;
+}
+
+.line5-bash {
+  color: #00FF41;
+}
+
+.line5-resume {
+  color: #00FF41;
+  text-decoration: underline;
+}
+
+.line6 {
+  color: #BF55EC;
+  text-decoration: none;
+}
+
+.line7 {
+  color: #fff;
+}
+
+.moonPicDiv {
+  width: 35%;
+  background-image: url('../../assets/images/moon.jpg');
+}
+
+.overallDiv {
+  height: 55%;
+  display: flex;
+  justify-content: center;
+}
+
+.parisPicDiv {
+  width: 65%;
+  background-image: url('../../assets/images/paris.jpg');
+}
+
+.separator {
+  height: 1%;
+  background-color: #24252a;
+}
+
+.shell-script {
+  margin-top: 0;
+  text-align: left;
+  font-size: 1rem;
+  font-family: monospace;
+  white-space: normal;
+}
+
+.terminal-container {
+  height: calc(100vh - 50px);
+}
+
+
+.tkdPicDivLeft {
+  width: 70%;
+  background-image: url('../../assets/images/tkdCartoon.jpeg');
+}
+
+
+.cursor {
+  -webkit-animation: blink 1s infinite;
+  -moz-animation: blink 1s infinite;
+  -o-animation: blink 1s infinite;
+  animation: blink 1s infinite;
+}
+
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-o-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+// mobile
+@media only screen and (max-width: 600px) {
+  .aboutPicDivRight {
+    width: 25%;
+  }
+
+  .fakeScreen {
+    height: 40%;
+  }
+
+  .jellyPicDiv {
+    background-image: url('../../assets/images/jellyMobile.jpg');
+  }
+
+  .moonPicDiv {
+    width: 0%;
+    background-image: url('../../assets/images/moonMobile.jpg');
+  }
+
+  .overallDiv {
+    height: 60%;
+  }
+
+  .parisPicDiv {
+    background-image: url('../../assets/images/parisMobile.jpg');
+    width: 100%;
+  }
+
+  .tkdPicDivLeft {
+    width: 75%;
+    background-image: url('../../assets/images/sunset.jpeg');
+    background-repeat: round;
+  }
+}
+
+// tablet
+@media (orientation: portrait) and (min-width: 601px) and (max-width: 1024px) {
+  .fakeScreen {
+    height: 40%;
+  }
+
+  .overallDiv {
+    height: 60%;
+  }
+
+  .tkdPicDivLeft {
+    width: 75%;
+    background-image: url('../../assets/images/sunset.jpeg');
+    background-repeat: round;
+  }
+}

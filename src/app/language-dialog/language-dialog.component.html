@@ -1,0 +1,17 @@
+<h1 mat-dialog-title>Select your language</h1>
+<div mat-dialog-content>
+  <mat-form-field>
+    <mat-label>English</mat-label>
+    <mat-select [(value)]="data.language">
+      <a style="text-decoration: none" *ngFor="let language of languages">
+        <mat-option [value]="language.value">
+          {{language.viewValue}}
+        </mat-option>
+      </a>
+    </mat-select>
+  </mat-form-field>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Cancel</button>
+  <button mat-button [mat-dialog-close]="data.language" cdkFocusInitial>Update</button>
+</div>

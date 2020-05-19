@@ -28,11 +28,61 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.scss"
             ],
             "scripts": []
           },
           "configurations": {
+            "es": {
+              "aot": true,
+              "i18nFile": "src/translate/messages.es.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "es",
+              "i18nMissingTranslation": "error"
+            },
+            "fr": {
+              "aot": true,
+              "i18nFile": "src/translate/messages.fr.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "fr",
+              "i18nMissingTranslation": "error"
+            },
+            "ch": {
+              "aot": true,
+              "i18nFile": "src/translate/messages.ch.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "ch",
+              "i18nMissingTranslation": "error"
+            },
+            "hi": {
+              "aot": true,
+              "i18nFile": "src/translate/messages.hi.xlf",
+              "i18nFormt": "xlf",
+              "i18nLocale": "hi",
+              "i18nMissingTranslation": "error"
+            },
+            "en": {
+              "aot": true,
+              "i18nFile": "src/translate/messages.en.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "en",
+              "i18nMissingTranslation": "error"
+            },
+            "ar": {
+              "aot": true,
+              "i18nFile": "src/translate/messages.ar.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "ar",
+              "i18nMissingTranslation": "error"
+            },
+            "jp": {
+              "aot": true,
+              "i18nFile": "src/translate/messages.jp.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "jp",
+              "i18nMissingTranslation": "error"
+            },
             "production": {
               "fileReplacements": [
                 {
@@ -72,6 +122,27 @@
           "configurations": {
             "production": {
               "browserTarget": "portfolio:build:production"
+            },
+            "es": {
+              "browserTarget": "i18nDemo:build:es"
+            },
+            "fr": {
+              "browserTarget": "i18nDemo:build:fr"
+            },
+            "hi": {
+              "browserTarget": "i18nDemo:build:hi"
+            },
+            "en": {
+              "browserTarget": "i18nDemo:build:en"
+            },
+            "ch": {
+              "browserTarget": "i18nDemo:build:ch"
+            },
+            "jp": {
+              "browserTarget": "i18nDemo:build:jp"
+            },
+            "ar": {
+              "browserTarget": "i18nDemo:build:ar"
             }
           }
         },
@@ -93,6 +164,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -124,6 +196,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "portfolio"
 }
