@@ -11,8 +11,9 @@
 
 .fakeScreen {
   background-color: #151515;
+  width: 100%;
   margin: 0 auto;
-  height: 45%;
+  flex: 1;
   padding: 20px;
   background-image: linear-gradient(to bottom right, #151515, #22313f)
 }
@@ -64,7 +65,7 @@
 }
 
 .overallDiv {
-  height: 55%;
+  flex: 1;
   display: flex;
   justify-content: center;
 }
@@ -80,15 +81,17 @@
 }
 
 .shell-script {
-  margin-top: 0;
+  margin-top: 3vh;
   text-align: left;
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-family: monospace;
   white-space: normal;
 }
 
 .terminal-container {
-  height: calc(100vh - 50px);
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
 }
 
 
@@ -183,10 +186,6 @@
     width: 25%;
   }
 
-  .fakeScreen {
-    height: 40%;
-  }
-
   .jellyPicDiv {
     background-image: url('../../assets/images/jellyMobile.jpg');
   }
@@ -194,10 +193,6 @@
   .moonPicDiv {
     width: 0%;
     background-image: url('../../assets/images/moonMobile.jpg');
-  }
-
-  .overallDiv {
-    height: 60%;
   }
 
   .parisPicDiv {
@@ -214,14 +209,6 @@
 
 // tablet
 @media (orientation: portrait) and (min-width: 601px) and (max-width: 1024px) {
-  .fakeScreen {
-    height: 40%;
-  }
-
-  .overallDiv {
-    height: 60%;
-  }
-
   .tkdPicDivLeft {
     width: 75%;
     background-image: url('../../assets/images/sunset.jpeg');

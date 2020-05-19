@@ -20,7 +20,7 @@ export class ApplicationShellComponent implements OnDestroy {
   mobileQuery: MediaQueryList;
   private _mobileQueryListener: () => void;
   @ViewChild('snav', {static: false}) snav: ElementRef;
-  darkMode = false;
+  darkMode = true;
   language = 'English';
 
   constructor(
@@ -33,7 +33,6 @@ export class ApplicationShellComponent implements OnDestroy {
     this._mobileQueryListener = () => changeDetectorRef.detectChanges();
     this.mobileQuery.addListener(this._mobileQueryListener);
     const hours = new Date().getHours();
-    this.darkMode = hours > 6 && hours < 20 ? false : true;
     translate.setDefaultLang('en');
   }
 

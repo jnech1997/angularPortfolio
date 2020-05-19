@@ -18,6 +18,7 @@ import { MatSelectModule } from '@angular/material/select';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { HomeComponent } from './home/home.component';
 
 
 
@@ -27,7 +28,8 @@ import { HttpClient, HttpClientModule } from '@angular/common/http';
     ApplicationShellComponent,
     AboutComponent,
     ProjectsComponent,
-    LanguageDialogComponent
+    LanguageDialogComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

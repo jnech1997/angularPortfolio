@@ -20,14 +20,12 @@
 
   <!-- SIDENAV -->
   <mat-sidenav-container
-    autosize
     class="sidenav-container"
     [style.marginTop.px]="mobileQuery.matches ? 56 : 0"
   >
     <mat-sidenav
       class="sidenav"
       #snav
-      [opened]="!mobileQuery.matches"
       [mode]="mobileQuery.matches ? 'over' : 'side'"
       [fixedInViewport]="mobileQuery.matches"
       fixedTopGap="56"
@@ -55,7 +53,8 @@
         <div class="sidenav-left">
           <div class="spacer-sidenav"></div>
           <mat-nav-list>
-            <a mat-list-item routerLink=".">{{'MENU.ABOUT' | translate}}</a>
+            <a mat-list-item routerLink=".">{{'MENU.HOME' | translate}}</a>
+            <a mat-list-item routerLink="about">{{'MENU.ABOUT' | translate}}</a>
             <a mat-list-item routerLink="projects">{{'MENU.PROJECTS' | translate}}</a>
             <a mat-list-item href="../../assets/UpdatedResume.pdf">{{'MENU.RESUME' | translate}}</a>
           </mat-nav-list>

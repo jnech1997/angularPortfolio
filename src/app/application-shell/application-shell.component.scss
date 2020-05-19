@@ -38,7 +38,7 @@ h1.app-name {
 }
 
 .icon {
-  padding: 0 0 0 8px;
+  padding: 0 0 0 2%;
   cursor: pointer
 }
 
@@ -60,7 +60,7 @@ h1.app-name {
 }
 
 .links-logos-container {
-  height: 95vh;
+  height: calc(95vh - 10px);
   overflow: hidden;
 }
 
@@ -107,7 +107,7 @@ h1.app-name {
 
 .signature {
   font-family: 'Sacramento', cursive;
-  font-size: 30px;
+  font-size: 1.25em;
   margin-top: 10px;
   margin-bottom: 10px;
 }
