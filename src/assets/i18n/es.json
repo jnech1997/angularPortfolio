@@ -1,9 +1,15 @@
 {
   "MENU": {
+    "MISSION": "Imagina. Diseño. Desarrollar.",
     "HOME": "Casa",
     "ABOUT": "Sobre",
     "PROJECTS": "Proyectos",
     "RESUME": "Currículum",
-    "CONTACT": "Contacto"
+    "CONTACT": "Contacto",
+    "WELCOME": "Bienvenidas",
+    "INTRO": "Hola mundo, mi nombre es",
+    "SCHOOL": "Ciencias de la Computación",
+    "WORK": "Desarrolladora de software en",
+    "EMAIL": "Por favor envíe todas sus consultas a"
   }
 }

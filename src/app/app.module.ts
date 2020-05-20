@@ -19,6 +19,7 @@ import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './home/home.component';
+import { TranslateService } from '@ngx-translate/core';
 
 
 
@@ -52,7 +53,7 @@ import { HomeComponent } from './home/home.component';
       }
     })
   ],
-  providers: [],
+  providers: [TranslateService],
   bootstrap: [AppComponent],
   entryComponents: [
     LanguageDialogComponent

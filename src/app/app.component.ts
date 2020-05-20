@@ -1,4 +1,5 @@
 import { Component, LOCALE_ID, Inject } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-root',
@@ -16,5 +17,5 @@ export class AppComponent {
     { code: 'ar', label: 'عربى' }
   ];
 
-  constructor(@Inject(LOCALE_ID) protected localeId: string) {}
+  constructor(@Inject(LOCALE_ID) protected localeId: string, private translate: TranslateService) {}
 }

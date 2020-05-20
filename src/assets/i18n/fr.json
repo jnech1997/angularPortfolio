@@ -1,9 +1,15 @@
 {
   "MENU": {
+    "MISSION": "Imaginer. Conception. Développer.",
     "HOME": "Accueil",
     "ABOUT": "Sur",
     "PROJECTS": "Projets",
     "RESUME": "C.V.",
-    "CONTACT": "Contacter"
+    "CONTACT": "Contacter",
+    "WELCOME": "Bienvenue",
+    "INTRO": "Bonjour tout le monde, mon nom est",
+    "SCHOOL": "L'informatique",
+    "WORK": "Développeur logiciel chez",
+    "EMAIL": "Veuillez envoyer toutes vos demandes à"
   }
 }

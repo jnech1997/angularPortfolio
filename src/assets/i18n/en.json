@@ -1,9 +1,15 @@
 {
   "MENU": {
+    "MISSION": "Imagine. Design. Develop.",
     "HOME": "Home",
     "ABOUT": "About",
     "PROJECTS": "Projects",
     "RESUME": "Resume",
-    "CONTACT": "Contact"
+    "CONTACT": "Contact",
+    "WELCOME": "Welcome",
+    "INTRO": "Hello World, my name is",
+    "SCHOOL": "Computer Science",
+    "WORK": "Software Developer at",
+    "EMAIL": "Please send all inquiries to"
   }
 }
