@@ -29,7 +29,7 @@ export class ApplicationShellComponent implements OnDestroy {
       public dialog: MatDialog,
       private translate: TranslateService
   ) {
-    this.mobileQuery = media.matchMedia('(max-width: 600px)');
+    this.mobileQuery = media.matchMedia('(max-width: 800px)');
     this._mobileQueryListener = () => changeDetectorRef.detectChanges();
     this.mobileQuery.addListener(this._mobileQueryListener);
     const hours = new Date().getHours();
